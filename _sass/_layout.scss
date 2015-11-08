@@ -8,6 +8,7 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    font-family: $heading-font-family;
 }
 
 .site-title {
@@ -100,6 +101,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    font-family: $heading-font-family;
 }
 
 .footer-heading {
@@ -186,6 +188,7 @@
 
 .post-meta {
     font-size: $small-font-size;
+    font-family: $heading-font-family;
     color: $grey-color;
 }
 

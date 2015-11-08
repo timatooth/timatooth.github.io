@@ -83,6 +83,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    font-family: $heading-font-family;
 }
 
 
@@ -99,8 +100,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: lighten($text-color, 15%);
     }
 }
 
@@ -188,7 +188,7 @@ pre {
 
 
 
-/**
+/** 
  * Icons
  */
 .icon {
