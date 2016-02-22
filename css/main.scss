@@ -11,7 +11,8 @@ $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.8;
-$heading-font-family: "PT Sans", Helvetica, Arial, sans-serif;
+$heading-font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+$heading-font-weight: 100;
 
 $spacing-unit:     30px;
 
@@ -50,8 +51,9 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
+        "effects",
         "syntax-highlighting"
 ;
 
 //google fonts
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100|Noto+Serif|Montserrat|Roboto:300);

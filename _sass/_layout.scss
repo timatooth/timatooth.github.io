@@ -1,41 +1,99 @@
+.front-cover {
+  background-image: url("/assets/images/orionsky.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  text-align: center;
+}
+
 /**
  * Site header
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
     font-family: $heading-font-family;
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 60px;
     font-weight: 300;
     line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+.tagline {
+  font-family: Roboto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+//NOTE partials can't include mixins?
+@mixin graybright ($grayscale: 100%, $brightness: 100%) {
+  -webkit-filter: grayscale(100%) brightness($brightness);
+  -moz-filter: grayscale(100%) brightness($brightness);
+  -ms-filter: grayscale(100%) brightness($brightness);
+  -o-filter: grayscale(100%) brightness($brightness);
+  filter: grayscale(100%) brightness($brightness);
+}
+
+.code-icons {
+  //@include graybright(100%, 120%);
+  list-style: none;
+  width: 33.3%;
+  margin-left: auto;
+  margin-right: auto;
+  //background-color: rgba(58,	83	,119	,0.8);
+
+  li {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 30px;
+
+    img {
+      @extend .shadow;
     }
+  }
+}
+
+.twitter-handle h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #eee;
+  &:link, &:visited, &:hover {
+    color: white;
+  }
+}
+
+#github {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-nav {
-    float: right;
+    //float: right;
     line-height: 56px;
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: white;
         line-height: $base-line-height;
+        letter-spacing: 2px;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -47,8 +105,8 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: rgb(19,45,88);
+        border: 1px solid #555;
         border-radius: 5px;
         text-align: right;
 
@@ -60,13 +118,14 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
+            color: white;
 
             > svg {
                 width: 18px;
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: white;
                 }
             }
         }
@@ -83,6 +142,7 @@
 
         .page-link {
             display: block;
+            //color: #000;
             padding: 5px 10px;
 
             &:not(:last-child) {
@@ -101,7 +161,8 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    font-family: $heading-font-family;
+    font-family: Roboto;
+    font-weight: 300;
 }
 
 .footer-heading {
@@ -194,7 +255,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 
