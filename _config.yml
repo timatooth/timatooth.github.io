@@ -9,8 +9,8 @@
 title: Tim Sullivan
 email: tsullivan@timatooth.com
 description: >
-  The photography and software development blog of Tim Sullivan. Located Dunedin, New Zealand.
-  I like to spend time tinkering with Python, JavaScript among many other things.
+  Welcome to my photography and software development blog. I like to
+  spend time tinkering in JavaScript making silly software ideas work.
 baseurl: "" # the subpath of your site, e.g. /blog
 staticurl: "/assets"
 url: "http://timatooth.com" # the base hostname & protocol for your site
