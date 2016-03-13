@@ -3,15 +3,13 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-Projects I have worked on
 
 ## udraw
-A multiplayer drawing application which allows users to draw on an automatically expanding
-surface in realtime.
+udraw is a HTML5 canvas drawing game. Many people can draw in the same area with WebSocket and WebRTC Peer-to-Peer connections for realtime updating. It uses Redis for storage. Currently working on implementing serverless WebRTC P2P storage methods. You can read more about [how udraw works](/development/2015/11/08/udraw-multiplayer-drawing.html). You can check out a live running version at [https://udraw.me](https://udraw.me).
+
 
 ## yahs
-A simple Python http server for fun. Allows you to create REST endpoints with a super 
-simple Python Decorator syntax.
+A simple Python http server for fun. Allows you to create REST endpoints with a super simple Python Decorator syntax. Available to try ```pip install yahs```.
 
 ## Mineload
-A server statistics monitoring tool for the popular Minecraft game for system administrators.
+A server statistics monitoring tool for the popular Minecraft game for system administrators. Still available on [Bukkit Dev](http://dev.bukkit.org/bukkit-plugins/mineload/)
