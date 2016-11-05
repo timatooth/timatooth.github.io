@@ -3,7 +3,8 @@ layout: post
 title:  "udraw: Multiplayer Drawing Canvas"
 date:   2015-11-08 20:00:00 +1300
 categories: development
-tags: web design static
+comments: true
+tags: udraw javascript development
 ---
 _udraw_ is a multiplayer drawing application like many other drawing apps out there which have surfaced since the rise of WebSockets. Mine happens to expand in size allowing very large drawings on an (unlimited?) sized surface. Each area of the canvas is broken into 256x256 pixel tiles which are drawn on a single HTML5 canvas seamlessly to make drawing on a large canvas possible. Here it is embedded below. Alternatively you can visit the full version at [https://udraw.me](https://udraw.me)
 

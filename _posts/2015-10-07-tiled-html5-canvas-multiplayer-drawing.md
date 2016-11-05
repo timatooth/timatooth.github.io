@@ -3,7 +3,8 @@ layout: post
 title:  "Tiled HTML5 Canvas Multiplayer Drawing"
 date:   2015-10-07 20:55:24 +1300
 category: development
-tags: canvas html5 java javascript nodejs rest websocket
+comments: true
+tags: udraw canvas html5 javascript nodejs rest websocket development
 ---
 There are far too may tutorials out there describing how to create a NodeJS app which either involves real time chat or drawing. A couple of years back I was amazed at how easy it was to write 12 lines of JavaScript code, chuck in a ```<canvas>``` element with some mousemove listeners in a page and type ```node server.js``` and away it goes!
 
