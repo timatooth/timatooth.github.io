@@ -20,7 +20,7 @@ description: >
   This is my photography and home for my technical geek writings. Currently a DevOps Engineer at
   Fairfax.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://timatooth.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: timatooth
 github_username:  timatooth
 
