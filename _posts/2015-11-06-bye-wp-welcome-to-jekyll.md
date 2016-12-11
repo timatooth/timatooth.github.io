@@ -5,4 +5,4 @@ date:   2015-11-06 18:37:24 +1300
 categories: development
 tags: web design static
 ---
-Horay for static site pages. This will definately make writing web pages fun again!
+Horay for static site pages. This will definitely make writing web pages fun again!
