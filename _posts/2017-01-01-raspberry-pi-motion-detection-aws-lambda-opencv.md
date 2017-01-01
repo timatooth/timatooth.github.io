@@ -11,6 +11,8 @@ Raspberry Pi Camera Module for uploading frames to S3. The frames are then scann
 by a triggered Lambda function which uses Haar-Cascade object detection to search
 for cat faces.
 
+![Detecting thug cats with OpenCV](https://i.imgur.com/RDmYoce.png "Detecting thug cats with OpenCV")
+
 *This could also be done using Amazon's very cool new image 'Rekognition' service but would cost more if you are processing thousands of frames per day.*
 
 <video loop autoplay class="post video-post" id="video-element" poster="//i.imgur.com/lTDfIbuh.jpg" preload="auto" muted="muted" webkit-playsinline="" style="width: 256px; height: 192px;"><source type="video/mp4" src="//i.imgur.com/lTDfIbu.mp4"></video>
