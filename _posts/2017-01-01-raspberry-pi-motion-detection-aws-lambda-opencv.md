@@ -20,6 +20,9 @@ for cat faces.
 I wanted to know how often my flatmate's cat was attempting to attack his mouse
 enclosure. Cat detection events are sent to DataDog using statsd for alerting!
 
+
+![Raspberry Pi 3 with camera module in Blu-Tac'd to mouse enclosure](https://i.imgur.com/Cp4Ptsu.jpg "Raspberry Pi 3 with camera module in Blu-Tac'd to mouse enclosure")
+
 ### Raspberry Pi Agent Code
 
 I am monitoring the occurence of motion events using DataDog and uploading the frames
