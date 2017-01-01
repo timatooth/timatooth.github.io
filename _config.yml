@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Tim Sullivan
 email: tsullivan@timatooth.com
+timezone: Pacific/Auckland
 repository: timatooth/timatooth.github.io
 description: >
   This is my photography and home for my technical geek writings. Currently a DevOps Engineer at

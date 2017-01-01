@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Motion Sensing with Raspberry Pi Camera and Cat Face Scanning with AWS Lambda + OpenCV"
-date:   2017-01-01 12:55:24 +1300
+date:   2017-01-01 20:50:00 +1300
 category: development
 comments: true
 tags: raspberrypi development python opencv cats
