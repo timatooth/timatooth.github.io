@@ -4,7 +4,7 @@ title:  "Motion Sensing with Raspberry Pi Camera and Cat Face Scanning with AWS 
 date:   2017-01-01 20:50:00 +1300
 category: development
 comments: true
-tags: raspberrypi development python opencv cats
+tags: raspberrypi development python opencv cats lambda aws
 ---
 I wrote a Python script which uses OpenCV for detecting motion with the official
 Raspberry Pi Camera Module for uploading frames to S3. The frames are then scanned
