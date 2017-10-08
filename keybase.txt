@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/timatooth
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://timatooth.com
+  * I am timatooth (https://keybase.io/timatooth) on keybase.
+  * I have a public key ASDws12PZudcIERmiEev7JNoePHple0o01zvupX_pvZfbAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f0b35d8f66e75c2044668847afec936878f1e995ed28d35cefba95ffa6f65f6c0a",
+      "host": "keybase.io",
+      "kid": "0120f0b35d8f66e75c2044668847afec936878f1e995ed28d35cefba95ffa6f65f6c0a",
+      "uid": "19ea600a7538c5f719e55ace9a58c719",
+      "username": "timatooth"
+    },
+    "merkle_root": {
+      "ctime": 1507498311,
+      "hash": "772439335155b7ee94bc86f05f5ad03a955cc8e4b3f80ba5fc75ce5d634d0c1fb2315b6958b9443169cc1dd04db16ee4e2bf7fc473a767243248e9c6dfaa0475",
+      "hash_meta": "3c2bc9c396685b9de299d5fd98851fb9d9ef074a5958c49d15bafe9456f89b2b",
+      "seqno": 1541707
+    },
+    "service": {
+      "hostname": "timatooth.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507498321,
+  "expire_in": 504576000,
+  "prev": "a07dfffeed070d57913659e9f345e88ae2529c4561dcd4a71cf93c12db37f28a",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8LNdj2bnXCBEZohHr+yTaHjx6ZXtKNNc77qV/6b2X2wKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjBiMzVkOGY2NmU3NWMyMDQ0NjY4ODQ3YWZlYzkzNjg3OGYxZTk5NWVkMjhkMzVjZWZiYTk1ZmZhNmY2NWY2YzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjBiMzVkOGY2NmU3NWMyMDQ0NjY4ODQ3YWZlYzkzNjg3OGYxZTk5NWVkMjhkMzVjZWZiYTk1ZmZhNmY2NWY2YzBhIiwidWlkIjoiMTllYTYwMGE3NTM4YzVmNzE5ZTU1YWNlOWE1OGM3MTkiLCJ1c2VybmFtZSI6InRpbWF0b290aCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNzQ5ODMxMSwiaGFzaCI6Ijc3MjQzOTMzNTE1NWI3ZWU5NGJjODZmMDVmNWFkMDNhOTU1Y2M4ZTRiM2Y4MGJhNWZjNzVjZTVkNjM0ZDBjMWZiMjMxNWI2OTU4Yjk0NDMxNjljYzFkZDA0ZGIxNmVlNGUyYmY3ZmM0NzNhNzY3MjQzMjQ4ZTljNmRmYWEwNDc1IiwiaGFzaF9tZXRhIjoiM2MyYmM5YzM5NjY4NWI5ZGUyOTlkNWZkOTg4NTFmYjlkOWVmMDc0YTU5NThjNDlkMTViYWZlOTQ1NmY4OWIyYiIsInNlcW5vIjoxNTQxNzA3fSwic2VydmljZSI6eyJob3N0bmFtZSI6InRpbWF0b290aC5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjMzIn0sImN0aW1lIjoxNTA3NDk4MzIxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImEwN2RmZmZlZWQwNzBkNTc5MTM2NTllOWYzNDVlODhhZTI1MjljNDU2MWRjZDRhNzFjZjkzYzEyZGIzN2YyOGEiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECe0NOoDMsKyEF7csls04mgzlOLa/KzmgDAEI83jqIMJAucb24qMrDZ8EfjOx4SSozFOObw68a/8zydaPDdI7UCqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgsQ2dQu18UF897hX39g0QCKD8bHv+QxwNsRgrQ7cKOVSjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/timatooth
+
+==================================================================
