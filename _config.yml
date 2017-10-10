@@ -18,8 +18,7 @@ email: tsullivan@timatooth.com
 timezone: Pacific/Auckland
 repository: timatooth/timatooth.github.io
 description: >
-  This is my photography and home for my technical geek writings. Currently a DevOps Engineer at
-  Fairfax.
+  This is my tech blog of random programming stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://timatooth.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: timatooth
