@@ -20,14 +20,14 @@ repository: timatooth/timatooth.github.io
 description: >
   This is my tech blog of random programming stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://timatooth.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://timatooth.com"
 twitter_username: timatooth
 github_username:  timatooth
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
