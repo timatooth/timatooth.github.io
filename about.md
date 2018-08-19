@@ -13,4 +13,4 @@ Tweet me at [Twitter](https://twitter.com/timatooth) or flick an email to
 _tsullivan at the domain of timatooth dot com_
 
 #### Keybase
-You can find my GPG stuff over on Keybase: https://keybase.io/timatooth
+You can find my GPG stuff over on [Keybase](https://keybase.io/timatooth)

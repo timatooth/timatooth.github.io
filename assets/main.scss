@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700|IBM+Plex+Sans+Condensed|Open+Sans');
+
+body {
+  font-family: 'Open Sans',BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h5 {
+  font-family: 'IBM Plex Sans', monospace;
+}
+
+.post-link {
+  font-size: 30px;
+}
+
+.site-title {
+  font-family: 'IBM Plex Sans', monospace;
+}
+
+.site-nav {
+  font-family: 'IBM+Plex+Sans+Condensed', monospace;
+}
