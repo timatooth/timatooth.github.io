@@ -1,22 +1,20 @@
 ---
 layout: post
 title:  "Traffic Shaping Large Uploads to S3 with MikroTik RouterOS"
-date:   2018-09-19 17:47:00 +1200
+date:   2018-08-19 17:47:00 +1200
 category: development
 comments: true
 tags: mikrotik routeros aws s3
 ---
-# Traffic Shaping Large Uploads to S3 with MikroTik RouterOS
+I currently have a very large collection of Canon Raw DSLR images I want to backup
+in the cloud in case the unthinkable happens to my external drives. There is one problem: I have 100Mbps down / 20Mbps up Internet speed. Having this going
+for a few days will destroy the network performance for everyone else. Let's over-engineer a solution using the router to fix this.
 
-I currently have a very large collection of Canon Raw DSLR images I want to have a backup
-in the cloud in case the unthinkable happens to my external drives. There are plenty of services targeted for photographers charged at
-a premium. I want to do it the cheap way by uploading directly Amazon S3 to have them placed
-in Glacier storage class.
+There are plenty of services targeted for photographers charged at
+a premium. I want to do it the cheap way by uploading directly Amazon S3 and have them placed
+in Glacier storage.
 
-There is one problem: I have 100Mbps down / 20Mbps up Internet speed and having this going
-for a few days will destroy the network performance for everyone else.
-
-I thought I'd try write some QoS Queue Tree rules that lets the upload use any bandwidth that's available but give it the lowest
+I decided to use QoS Queue Tree rules that lets the upload use any bandwidth that's available but give it the lowest
 possible priority so it does not impact other applications *cough* games.
 
 Here is a crafty cURL + jq command to get the current IP ranges from AWS. These could always change as Amazon purchases more of the Internet :D
