@@ -15,8 +15,6 @@ for cat faces.
 
 *This could also be done using Amazon's very cool new image 'Rekognition' service but would cost more if you are processing thousands of frames per day.*
 
-<video loop autoplay class="post video-post" id="video-element" poster="//i.imgur.com/lTDfIbuh.jpg" preload="auto" muted="muted" webkit-playsinline="" style="width: 256px; height: 192px;"><source type="video/mp4" src="//i.imgur.com/lTDfIbu.mp4"></video>
-
 I wanted to know how often my flatmate's cat was attempting to attack his mouse
 enclosure. Cat detection events are sent to DataDog using statsd for alerting!
 

@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Tim Sullivan
 email: tsullivan@timatooth.com
-timezone: Pacific/Auckland
+timezone: Australia/Melbourne
 repository: timatooth/timatooth.github.io
 description: >
-  This is my tech blog of random programming stuff.
+  This is my tech blog of random programming stuff and photography.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://timatooth.com"
 twitter_username: timatooth
