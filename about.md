@@ -26,3 +26,6 @@ You can flick me an email to _tsullivan (at) timatooth dot com_
 
 #### Keybase
 You can find my GPG stuff over on [Keybase](https://keybase.io/timatooth)
+
+
+##### Résumé available upon request
