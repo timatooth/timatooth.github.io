@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export JEKYLL_VERSION=3.8
+export JEKYLL_VERSION=4.2
 mkdir -p /tmp/jekyllbundlecache
 docker run --rm \
   --volume="$PWD:/srv/jekyll" \

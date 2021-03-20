@@ -36,7 +36,3 @@ exclude:
   - Gemfile.lock
 show_excerpts: true
 
-google_analytics: UA-86909821-1
-
-disqus:
-  shortname: timatooth
